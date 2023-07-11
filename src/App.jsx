@@ -14,7 +14,7 @@ useEffect(()=>{
     const pacientesLocalStorage= JSON.parse(localStorage.getItem('pacientes'))??[]
     setPacientes(pacientesLocalStorage)
 
-    console.log(pacientesLocalStorage, 'pacientesLocalStorage')
+    console.log(pacientesLocalStorage, 'sssss')
    }
    obtenerLocalStorage()
 },[])
